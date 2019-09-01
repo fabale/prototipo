@@ -1,0 +1,202 @@
+<!DOCTYPE html> 
+<html lang="es"> 
+<head> 
+    <meta charset="iso-8859-1" />   
+<title>Rotamos texto con CSS.</title>    
+
+<style type="text/css">    
+<!--      
+/* Si -90 lo cambiamos por 90, cambia el sentido   
+de abajo a arriba, o de arriba a abajo.  
+Si ponemos -45 el texto se posiciona en diagonal */  
+
+#cap1{ 
+    position: absolute; 
+    font-size: 40px; 
+} 
+
+#cap2{ 
+    position: relative; 
+    top: 500px; 
+} 
+
+#cap3{ 
+    position: relative; 
+    top: 700px; 
+} 
+
+.rotar1  
+    {  
+      -webkit-transform: rotate(-45deg);  
+      -moz-transform: rotate(-45deg);  
+      -ms-transform: rotate(-45deg);  
+      -o-transform: rotate(-45deg);  
+      transform: rotate(-45deg);  
+       
+      -webkit-transform-origin: 50% 50%;  
+      -moz-transform-origin: 50% 50%;  
+      -ms-transform-origin: 50% 50%;  
+      -o-transform-origin: 50% 50%;  
+      transform-origin: 50% 50%;  
+       
+      font-size: 40px;  
+      width: 250px;  
+      position: relative;  
+      top: 150px;  
+    } 
+     
+.rotar2  
+    {  
+    left: 200px; 
+      -webkit-transform: rotate(45deg);  
+      -moz-transform: rotate(45deg);  
+      -ms-transform: rotate(45deg);  
+      -o-transform: rotate(45deg);  
+      transform: rotate(45deg);  
+       
+      -webkit-transform-origin: 50% 50%;  
+      -moz-transform-origin: 50% 50%;  
+      -ms-transform-origin: 50% 50%;  
+      -o-transform-origin: 50% 50%;  
+      transform-origin: 50% 50%;  
+       
+      font-size: 40px;  
+      width: 250px;  
+      position: relative;  
+      top: 150px;  
+    }  
+     
+.rotar3  
+    {  
+    left: 400px; 
+      -webkit-transform: rotate(-90deg);  
+      -moz-transform: rotate(-90deg);  
+      -ms-transform: rotate(-90deg);  
+      -o-transform: rotate(-90deg);  
+      transform: rotate(-90deg);  
+       
+      -webkit-transform-origin: 50% 50%;  
+      -moz-transform-origin: 50% 50%;  
+      -ms-transform-origin: 50% 50%;  
+      -o-transform-origin: 50% 50%;  
+      transform-origin: 50% 50%;  
+       
+      font-size: 40px;  
+      width: 250px;  
+      position: relative;  
+      top: 150px;  
+    } 
+     
+.rotar4  
+    {  
+    left: 500px; 
+      -webkit-transform: rotate(90deg);  
+      -moz-transform: rotate(90deg);  
+      -ms-transform: rotate(90deg);  
+      -o-transform: rotate(90deg);  
+      transform: rotate(90deg);  
+       
+      -webkit-transform-origin: 50% 50%;  
+      -moz-transform-origin: 50% 50%;  
+      -ms-transform-origin: 50% 50%;  
+      -o-transform-origin: 50% 50%;  
+      transform-origin: 50% 50%;  
+       
+      font-size: 40px;  
+      width: 250px;  
+      position: relative;  
+      top: 150px;  
+    } 
+     
+.rotar5  
+    {  
+      -webkit-transform: rotate(-7deg);  
+      -moz-transform: rotate(-7deg);  
+      -ms-transform: rotate(-7deg);  
+      -o-transform: rotate(-7deg);  
+      transform: rotate(-7deg);  
+       
+      -webkit-transform-origin: 50% 50%;  
+      -moz-transform-origin: 50% 50%;  
+      -ms-transform-origin: 50% 50%;  
+      -o-transform-origin: 50% 50%;  
+      transform-origin: 50% 50%;  
+       
+      font-size: 40px;   
+      position: relative;  
+      top: 150px;  
+    } 
+     
+.rotar6  
+    {  
+      -webkit-transform: rotate(-7deg);  
+      -moz-transform: rotate(-7deg);  
+      -ms-transform: rotate(-7deg);  
+      -o-transform: rotate(-7deg);  
+      transform: rotate(-7deg);  
+       
+      -webkit-transform-origin: 50% 50%;  
+      -moz-transform-origin: 50% 50%;  
+      -ms-transform-origin: 50% 50%;  
+      -o-transform-origin: 50% 50%;  
+      transform-origin: 50% 50%;  
+       
+      font-size: 40px;   
+      position: relative; 
+      left: 200px;  
+      top: 200px;  
+    } 
+     
+.rotar7  
+    {  
+      -webkit-transform: rotate(-180deg);  
+      -moz-transform: rotate(-180deg);  
+      -ms-transform: rotate(-180deg);  
+      -o-transform: rotate(-180deg);  
+      transform: rotate(-180deg);  
+       
+      -webkit-transform-origin: 50% 50%;  
+      -moz-transform-origin: 50% 50%;  
+      -ms-transform-origin: 50% 50%;  
+      -o-transform-origin: 50% 50%;  
+      transform-origin: 50% 50%;  
+       
+      font-size: 40px;   
+      position: relative; 
+      text-align:center; 
+      top: 100px;  
+    } 
+-->      
+</style>     
+
+</head>     
+
+<body> 
+
+<div id="cap1"> 
+
+<p>Asi tenemos un texto corriente y moliente.</p> 
+
+    <div class="rotar1">Uterra.Com - 1</div> 
+    <div class="rotar2">Uterra.Com - 2</div>  
+    <div class="rotar3">Uterra.Com - 3</div>  
+    <div class="rotar4">Uterra.Com - 4</div>  
+     
+</div> 
+
+<div id="cap2"> 
+
+    <div class="rotar5">Aprendiendo CSS con Uterra.Com - 5</div> 
+    <div class="rotar6"><img src="http://www.uterra.com/archcodfuente/demos_img/amp_imagen10.jpg" width="600" height="500"> - 6</div> 
+     
+</div> 
+
+<div id="cap3"> 
+
+<div class="rotar7">A que no esperabas un efecto como este?? - 7</div> 
+
+</div> 
+
+</body>  
+
+</html>

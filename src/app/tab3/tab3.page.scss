@@ -1,0 +1,115 @@
+.oval {
+  text-align: center;
+  -moz-border-radius: 40%;
+  -webkit-border-radius: 40%;
+  border-radius: 50%;
+  background: #4460ec;
+}
+
+.olvalsuperior {
+  height: 45px;
+  width: 100%;
+  background: #2747e4;
+  -moz-border-radius: 100px 100px 0 0;
+  -webkit-border-radius: 100px 100px 0 0;
+  border-radius: 100px 100px 0 0;
+}
+
+.protar {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+
+  -webkit-transform-origin: 50% 50%;
+  -moz-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  -o-transform-origin: 50% 50%;
+
+  transform-origin: 51% 71%;
+
+  font-style: italic;
+  font-size: x-large;
+  color: #beb934;
+}
+
+.rotar {
+  /* -webkit-transform: rotate(-45deg); */
+  /* transform: rotate(-45deg); */
+  /* -webkit-transform-origin: 50% 50%; */
+  /* transform-origin: 51% 71%; */
+  font-style: italic;
+  font-size: -webkit-xxx-large;
+  color: #beb934;
+}
+.olvalinferior {
+  height: 45px;
+  width: 100%;
+  background: #2747e4;
+  -moz-border-radius: 0 0 100px 100px;
+  -webkit-border-radius: 0 0 100px 100px;
+  border-radius: 0 0 100px 100px;
+}
+
+ion-label.sc-ion-label-md-h.sc-ion-label-md-s.md.label-stacked.hydrated {
+  font-size: xx-large;
+}
+
+.imagen {
+  height: 100%;
+  background-image: url("../img/comida.jpg");
+  background-repeat: no-repeat;
+  margin-right: 25%;
+  margin-left: 25%;
+}
+.center {
+  height: 100%;
+  text-align: center;
+}
+.letrapequeña {
+  width: 100%;
+  text-align: center;
+  font-style: italic;
+  font-size: unset;
+  color: #beb934;
+}
+
+.Figura {
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 160px;
+
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border-radius: 30%;
+  background: white;
+  text-align: center;
+}
+.olvalmedio {
+  width: 100%;
+  height: 50px;
+  background: #2747e4;
+}
+
+.fondo {
+  background: #4460ec;
+  height: 140px;
+}
+
+.backHome {
+  background-color: #db8585;
+  height: 100%;
+  text-align: center;
+}
+ion-grid.fondo.md.hydrated {
+  padding: 0;
+}
+
+.ColorFondo
+{
+  background-color: #FFD1D1;
+  margin-left: 5%;
+  margin-bottom: 5%;
+  margin-right: 5%;
+}
