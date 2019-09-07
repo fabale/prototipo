@@ -7,7 +7,11 @@ const routes: Routes = [
     loadChildren: () => import('./tabs/tabs.module').then(m => m.TabsPageModule)
   },
   { path: 'login', loadChildren: './login/login.module#LoginPageModule' },
-  { path: '', loadChildren: './logo/logo.module#LogoPageModule' }
+  { path: 'logo', loadChildren: './logo/logo.module#LogoPageModule' },
+  { path: 'tab4', loadChildren: './tab4/tab4.module#Tab4PageModule' },
+  { path: 'fabale', loadChildren: './fabale/fabale.module#FabalePageModule' },
+  //{ path: 'touristic-sites', loadChildren: './touristic-sites/touristic-sites.module#TouristicSitesPageModule' },
+  { path: '', loadChildren: './turismo/turismo.module#TurismoPageModule' }
 ];
 @NgModule({
   imports: [

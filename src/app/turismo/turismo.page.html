@@ -1,0 +1,19 @@
+<ion-header>
+    <ion-toolbar>
+      <ion-title class="titulo">Turismo</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-content>
+  
+    <ion-card *ngFor = 'let turistic of sitios'>
+    <img src="{{turistic.nameSite}}"/>
+    <ion-card-header>
+      <ion-card-title> {{turistic.lugar}}</ion-card-title>      
+      <ion-card-subtitle>Destino Turístico</ion-card-subtitle>    
+    </ion-card-header>
+    <ion-card-content>{{turistic.descripcion}} </ion-card-content>
+    </ion-card>
+    
+  </ion-content>
+  
